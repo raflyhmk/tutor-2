@@ -4,6 +4,12 @@
     yang terakhir itu REM, ini sama kayak EM cuman beda nya ukuran nya ini dipengaruhi sama default tag <html> nya buat referensi mungkin bisa kesini https://rifatnajmi.com/design/px-em-rem/
 */
 
+/* buat ngedit make CSS bisa make 3 cara aku lupa ngejelasin yang satunya
+ yang pertama kan bisa make tag, kalo tag ini di kodingan css nya langsung tulis aja nama tag nya misal tag <body> nah berarti di css kalo mau ngedit body nya langsung tulis aja 'body' 
+ yang kedua bisa make class kalo clas ini kita ngeset sesuai keinginan kita nama class nya diketik aja di html nya misal <div class="edit"></div> nah buat ngedit di css nya ini make titik dulu di depan nama class nya, kayak misal nya kan tadi nama class nya edit nah di css nya ketik aja '.edit'
+ yang terakhir bisa make nama nya id, kalo id ini sifat nya unik enggak boleh sama kayak yang lain buat namanya, di html nya tulis aja begini misal <div id="edit"></div>, nah nanti buat ngedit di css nya make tanda pagar dulu baru nama id nya, contoh nya tadi nama id nya edit nah di css nya ketik aja '#edit'
+ */
+
 body {
   background: rgb(2, 0, 36);
   background: linear-gradient(
