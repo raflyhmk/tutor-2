@@ -1,0 +1,73 @@
+/* buat ngasih ukuran di css sebenernya ada 3 aku lupa ngejelasin tadi
+    yang pertama itu PX nah kalo px itu ukuran nya selalu fix enggak dipengaruhi sama elemen yang lain
+    yang kedua ini EM nah kalo EM itu ukuran nya dipengaruhi sama elemen pembungkus nya maksudnya pembungkus ini tag nya ya kayak <div>, <strong> atau <small> buat lebih detail nya gw kurang bisa ngejelasin
+    yang terakhir itu REM, ini sama kayak EM cuman beda nya ukuran nya ini dipengaruhi sama default tag <html> nya buat referensi mungkin bisa kesini https://rifatnajmi.com/design/px-em-rem/
+*/
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+}
+
+.container {
+  margin: 50px 0px 0px 20px;
+  /* urutan nya top, right, bottom, left */
+}
+
+h1.judul {
+  font-family: "roboto", Courier, monospace;
+  color: #2fa4ff;
+  text-transform: capitalize;
+}
+
+p.isian-form {
+  font-size: 24px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.submit {
+  width: 220px;
+  height: 40px;
+  background: #2fa4ff;
+  color: white;
+  border-radius: 5px;
+  border: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 5px 0px 5px 0px;
+  margin-right: 20px;
+}
+
+.submit:hover {
+  background: #2fa5ffee;
+  cursor: pointer;
+}
+
+.cancel {
+  width: 220px;
+  height: 40px;
+  background: #ff2f2f;
+  color: white;
+  border-radius: 5px;
+  border: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 5px 0px 5px 0px;
+}
+
+.cancel:hover {
+  background: #ff2f2ff1;
+  cursor: pointer;
+  color: #222;
+}
